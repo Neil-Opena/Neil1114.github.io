@@ -1,0 +1,11 @@
+body{
+	background-image: url(https://images.unsplash.com/photo-1482106013203-98d425701222?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=50d3b05dcb2d9f80cb89b7dfbaf51b66);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+.jumbotron{
+	text-align: center;
+	opacity: 0.5;
+}
