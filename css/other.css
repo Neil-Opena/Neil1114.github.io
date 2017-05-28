@@ -2,13 +2,17 @@
 @-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
 
 .type-animation{ 
+	margin-left:auto;
+	margin-right:auto;
 	font: bold 2em monospace;
-  color: black;
-	border-right: .1em solid black;
+  	color: black;
+	border-right: .1em solid white;
 	width: calc(0.55em * 14); 
-	width: 14ch;
+	width: 99ch;
 	white-space: nowrap;
 	overflow: hidden;
-	-webkit-animation: typing 6s steps(14, end),
-	           blink-caret .5s step-end infinite alternate;
+	text-align:center;
+	-webkit-animation: typing 5s steps(99, end),
+	           blink-caret .2s step-end alternate;
+
 }
