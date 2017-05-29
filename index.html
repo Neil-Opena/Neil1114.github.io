@@ -92,7 +92,7 @@
           <div class="col-md-8 col-sm-8">
             <div class="wow fadeInDown" data-wow-delay="0.2s">
               
-              <p>I am currently a 19 year old student, pursuing a dual Bachelor's degree in Computer Science and Applied Mathematics/Statistics at Stony Brook University. </p>
+              <p>I am currently a 19 year old student, pursuing a dual Bachelor's degree in Computer Science and Applied Mathematics/Statistics at Stony Brook University. PUT MORE INFORMATION HERE</p>
             </div>
           </div>
 
@@ -203,6 +203,7 @@
           <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Personal <span>Projects</span></h2>
           <hr class="lines wow zoomIn" data-wow-delay="0.3s">
         </div>
+
         <div class="row">          
           <div class="col-md-12">
             <!-- Portfolio Controller/Buttons -->
@@ -218,18 +219,21 @@
               </a>
             </div>
             <!-- Portfolio Controller/Buttons Ends-->          
-
+  
             <!-- Portfolio Recent Projects -->
             <div id="portfolio" class="row wow fadeInUp" data-wow-delay="0.8s">
-              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix coding">
+              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4coding">
                 <div class="portfolio-item">
                   <div class="shot-item">
-                    <a class="overlay lightbox" href="#">
-                      
-                    <!-- FIXME lightbox should be zoomed in image, maybe delete lightbox and do something else-->
-                      <img src="img/projects/back.jpg" alt="UNO-game"/>  
+                    <!-- Button -->
+                    <button type="button" class="overlay ligthbox" data-toggle="modal" data-target="#myModal">
+                      <img src="img/projects/back.jpg"/>
                       <i class="fa fa-search item-icon" aria-hidden="true"></i></i>
-                    </a>
+                    </button>
+
+                    <!-- Modal -->
+                    
+                    </div>
                   </div>               
                 </div>
               </div>
@@ -288,8 +292,22 @@
     </section>
     <!-- Contact Section End -->
 
-
-
+    <!-- Modals -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+           
+          </div>
+          <div class="modal-body">
+            Put information about project here
+          </div>
+          <div class="modal-footer">
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Footer Section Start -->
     <footer>          
       <div class="container">
