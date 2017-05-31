@@ -74,7 +74,7 @@ a {
 }
 .btn-common:hover {
   color: #098dff;
-  background-color: transparent;
+  background-color: #fff;
   border: 2px solid #098dff;
   transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
