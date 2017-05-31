@@ -34,3 +34,12 @@
 	font-size:35px;
 	text-align:center;
 }
+
+p span{
+	color:red;
+	font-weight:bolder;
+}
+
+#video-area{
+	padding-bottom: 300px;
+}
