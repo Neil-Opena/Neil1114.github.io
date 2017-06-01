@@ -54,13 +54,32 @@ p span{
 	color:#fff;
 }
 
+.fa-angle-double-down:hover{
+	color:#098dff;
+	
+}
+
 .fa-angle-double-up{
 	color:#fff;
 }
+
+.fa-angle-double-up:hover{
+	color:#098dff;
+}
+
 .fa-angle-down{
 	color:#fff;
+}
+
+.fa-angle-down:hover{
+	color:#098dff;
 }
 .center-arrow{
 	margin-left:auto;
 	margin-right: auto;
+}
+.center-arrow:hover{
+	margin-left:auto;
+	margin-right: auto;
+	transform: scale(1.7);
 }
