@@ -83,3 +83,9 @@ p span{
 	margin-right: auto;
 	transform: scale(1.7);
 }
+
+.rectangle{
+	width:200px;
+	height:100px;
+	background:gray;
+}
