@@ -89,3 +89,7 @@ p span{
 	height:100px;
 	background:gray;
 }
+
+.rectangle:hover{
+	background-color: white;
+}

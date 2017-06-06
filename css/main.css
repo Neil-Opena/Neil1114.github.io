@@ -1063,16 +1063,16 @@ a:not([href]):not([tabindex]):hover {
    Footer Style
    ========================================================================== */
 footer {
-  background: #fff;
-  padding: 60px 0px 30px;
+  background: #182c36;
+  padding: 30px 0px 30px;
   text-align: center;
 }
 .site-info p {
   line-height: 34px;
-  color: black;
+  color: #fff;
 }
 .site-info p a {
-  color: black;
+  color: #fff;
 }
 .site-info p a:hover {
   color: #098dff;
