@@ -1,1 +1,0 @@
-/* JavaScript snippet copied from www.coverr.co */
