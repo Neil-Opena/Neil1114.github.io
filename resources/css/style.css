@@ -1,0 +1,99 @@
+/* ----------- BASIC SETUP ------------ */
+/*color: #2c3e50; */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body{
+	background-color:#555;
+	color: #2c3e50;
+	font-family: "Raleway", "Arial", sans-serif;
+	font-size: 20px;
+	font-weight:500;
+	text-rendering: optimizeLegibility;
+	overflow-x: hidden;
+}
+
+.clearfix{
+	zoom:1;
+}
+
+.clearfix:after{
+	content: '.';
+	clear:both;
+	display:block;
+	height: 0;
+	visibility: hidden;
+}
+
+/* ----------- REUSABLE COMPONENTS ------------ */
+
+.row{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+section{
+	padding:80px 0px;
+}
+
+/*HEADINGSS*/
+
+h1, h2, h3{
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+h1{
+	font-size: 400%;
+	font-weight: 300;
+	margin-top: 0;
+	word-spacing: 4px;
+	letter-spacing: 1px;
+	padding-bottom: 0px;
+	text-shadow: 0 5px 5px #ecf0f1;
+}
+
+
+/* ----------- HEADER ------------ */
+
+header{
+	height: 100vh;
+}
+
+.main-screen{
+	z-index: 10;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	top:25%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.main-screen p{
+	text-shadow: 0 1px 0px #ecf0f1;
+}
+
+/*VIDEO BACKGROUND */
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
