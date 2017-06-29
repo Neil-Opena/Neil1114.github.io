@@ -14,6 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="vendors/css/jquery-ui.min.css">
 	<link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/coverr.css">
 	<link rel="stylesheet" type="text/css" href="resources/css/style.css">
 </head>
 <body>
@@ -22,16 +23,28 @@
 			<h1>Neil Opena</h1>
 			<p>An aspiring software engineer seeking to change lives, one line of code at a time</p>
 			<a href="#" class="btn btn-full">Learn More <i class="fa fa-square-o" aria-hidden="true"></i></a>
-		</div>
-		    <video autoplay loop class="fillWidth">
-		        <source src="resources/video/New-York-Sky.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-		        <source src="resources/video/New-York-Sky.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
-		    </video>
-		    <div class="poster hidden">
-		        <img src="resources/img/New-York-Sky.jpg" alt="">
+		</div>		
+ 		<div class="homepage-hero-module">
+		    <div class="video-container">
+		        <video autoplay loop class="fillWidth">
+		            <source src="resources/video/New-York-Sky.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+		            <source src="resources/video/New-York-Sky.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+		        </video>
+		        <!-- <div class="poster hidden">
+		            <img src="resources/img/New-York-Sky.jpg" alt="">
+		        </div> -->
 		    </div>
-		<nav class="main-nav">
-			
+		</div>
+
+
+ 		<nav>
+			<ul class="main-nav">
+				<li><a href="#" class="btn btn-nav"><div></div></a><span>Header</span></li>
+				<li><a href="#" class="btn btn-nav"><div></div></a><span>About Me</span></li>
+				<li><a href="#" class="btn btn-nav"><div></div></a><span>Education</span></li>
+				<li><a href="#" class="btn btn-nav"><div></div></a><span>Education</span></li>
+				<li><a href="#" class="btn btn-nav"><div></div></a><span>Education</span></li>				
+			</ul>
 		</nav>
 	</header>
 	<section class="section-about-me">
@@ -40,10 +53,16 @@
 		</div>
 	</section>
 	
+	<section class="section-education">
+		<div class="row">
+			<h2>Education</h2>
+		</div>
+	</section>
 	
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="vendors/js/jquery-ui.min.js"></script>
+	<script src="vendors/js/coverr.js"></script>
 	<script src="resources/js/script.js"></script>
 </body>
 </html>
