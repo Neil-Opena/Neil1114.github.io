@@ -1,5 +1,7 @@
 /* ----------- BASIC SETUP ------------ */
-/*color: #2c3e50; */
+/*blue color: #2c3e50; */
+/*orange color: #f39c12;
+darker orange: #976008*/
 *{
 	margin: 0;
 	padding: 0;
@@ -57,15 +59,45 @@ h1, h2, h3{
 h1{
 	font-size: 400%;
 	font-weight: 300;
-	margin-top: 0;
+	margin-bottom: 15px;
 	word-spacing: 4px;
 	letter-spacing: 1px;
 	padding-bottom: 0px;
 	text-shadow: 0 5px 5px #ecf0f1;
 }
 
+h2{
+	font-size: 300%;
+	width:50%;
+	text-align: center;
+	border-bottom: 3px solid #f39c12;
+	margin-left: 25%;
+	letter-spacing: 5px;
+	padding-bottom:5px;
+}
+
 /*BUTTONS*/
 
+.btn{
+	border: 2px solid #2c3e50;
+	text-decoration: none;
+	border-radius: 39px;
+	padding:15px;
+	font-size: 125%;
+	display: inline-block;
+}
+
+.btn-full:link,
+.btn-full:visited{
+	background-color:none;
+	color: #2c3e50;
+	transition: background-color 0.5s;
+}
+
+.btn-full:hover,
+.btn-full:active{
+	background-color: #f39c12;
+}
 
 /* ----------- HEADER ------------ */
 
@@ -86,6 +118,14 @@ header{
 
 .main-screen p{
 	text-shadow: 0 1px 0px #ecf0f1;
+}
+
+.main-screen .btn{
+	margin-top: 55px;
+}
+
+.main-screen .btn i{
+	vertical-align: middle;
 }
 
 /*VIDEO BACKGROUND */
