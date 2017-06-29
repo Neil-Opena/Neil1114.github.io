@@ -18,7 +18,7 @@
 	<link rel="stylesheet" type="text/css" href="resources/css/style.css">
 </head>
 <body>
-	<header>
+	<header id="header">
 		<div class="main-screen">
 			<h1>Neil Opena</h1>
 			<p>An aspiring software engineer seeking to change lives, one line of code at a time</p>
@@ -39,25 +39,56 @@
 
  		<nav>
 			<ul class="main-nav">
-				<li><a href="#" class="btn btn-nav"><div></div></a><span>Header</span></li>
-				<li><a href="#" class="btn btn-nav"><div></div></a><span>About Me</span></li>
-				<li><a href="#" class="btn btn-nav"><div></div></a><span>Education</span></li>
-				<li><a href="#" class="btn btn-nav"><div></div></a><span>Education</span></li>
-				<li><a href="#" class="btn btn-nav"><div></div></a><span>Education</span></li>				
+				<li><a href="#header" class="btn btn-nav js-btn-header"><div></div></a></li>
+				<li><a href="#about-me" class="btn btn-nav js-btn-about-me"><div></div></a></li>
+				<li><a href="#education" class="btn btn-nav js-btn-education"><div></div></a></li>
+				<li><a href="#statistics" class="btn btn-nav js-btn-statistics"><div></div></a></li>
+				<li><a href="#portfolio" class="btn btn-nav js-btn-portfolio"><div></div></a></li>
+				<li><a href="#contact" class="btn btn-nav js-btn-contact"><div></div></a></li>				
+			</ul>
+			<ul class="nav-sections">
+				<li class="js-header">Header</li>
+				<li class="js-about-me">About Me</li>
+				<li class="js-education">Education</li>
+				<li class="js-statistics">Statistics</li>
+				<li class="js-portfolio">Portfolio</li>
+				<li class="js-contact">Contact Me</li>
 			</ul>
 		</nav>
 	</header>
-	<section class="section-about-me">
+	<section class="section-about-me" id="about-me">
 		<div class="row">
 			<h2>About Me</h2>
 		</div>
 	</section>
 	
-	<section class="section-education">
+	<section class="section-education" id="education">
 		<div class="row">
 			<h2>Education</h2>
 		</div>
 	</section>
+
+	<section class="section-statistics" id="statistics">
+		<div class="row">
+			<h2>Statistics</h2>
+		</div>
+	</section>
+
+	<section class="section-portfolio" id="portfolio">
+		<div class="row">
+			<h2>Portfolio</h2>
+		</div>
+	</section>
+
+	<section class="section-contact" id="contact">
+		<div class="row">
+			<h2>Contact Me</h2>
+		</div>
+	</section>
+
+	<footer>
+		
+	</footer>
 	
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

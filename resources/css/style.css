@@ -130,19 +130,24 @@ header{
 
 /* ----------- NAVIGATION------------ */
 
-.main-nav{
-	z-index:999;
+.main-nav,
+.nav-sections{
+	z-index:10;
 	position:fixed;
+	padding: 20px 5px;
+}
+
+.main-nav{
 	background-color:rgba(250,250,250,0.5);
 	border: 1px solid #2c3e50;
 	border-radius:20px;
-	padding: 20px 5px;
-	top:50%;
+	top:35%;
 	right:2%;
 	list-style: none;
 }
 
-.main-nav li{
+.main-nav li,
+.nav-sections li{
 	text-decoration: none;
 	display:block;
 	padding: 3px 0;
@@ -155,13 +160,22 @@ header{
 	border-width: 1px;
 }
 
-.btn-nav:hover,
+/*.btn-nav:hover,
 .btn-nav:active{
 	padding:5px;
 	background-color: #f39c12;
 	border-color: #fff;
+}*/
+
+.nav-sections{
+	top:35%;
+	right:4%;
+	z-index:11;
 }
 
-.main-nav li span{
-	display:none;
+.nav-sections li{
+	text-align:center;
+	color:transparent;
+	background-color:transparent;
+	border-radius:5px;
 }
