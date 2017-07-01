@@ -181,27 +181,43 @@ function turnOff(){
 }
 
 $('#header').waypoint(function(direction){
-	turnOff();
+	
 	$('.js-btn-header').css({
 		'background-color':'#f39c12;',
 	});
+	
 },{
 	offset:'50%',
 });
+
 $('#about-me').waypoint(function(direction){
-	turnOff();
+	if(direction == 'down'){
+		turnOff();
 	$('.js-btn-about-me').css({
 		'background-color':'#f39c12;',
 	});
+	}else{
+		turnOff();
+	$('.js-btn-header').css({
+		'background-color':'#f39c12;',
+	});
+}
 },{
 	offset:'50%',
 });
 
 $('#education').waypoint(function(direction){
-	turnOff();
+	if(direction == 'down'){
+		turnOff();
 	$('.js-btn-education').css({
 		'background-color':'#f39c12;',
 	});
+	}else{
+		turnOff();
+	$('.js-btn-about-me').css({
+		'background-color':'#f39c12;',
+	});
+}
 },{
 	offset:'50%',
 });
@@ -223,28 +239,49 @@ $('#statistics').waypoint(function(direction){
 });
 
 $('#portfolio').waypoint(function(direction){
-	turnOff();
+	if(direction == 'down'){
+		turnOff();
 	$('.js-btn-portfolio').css({
 		'background-color':'#f39c12;',
 	});
+	}else{
+		turnOff();
+	$('.js-btn-statistics').css({
+		'background-color':'#f39c12;',
+	});
+}
 },{
 	offset:'50%',
 });
 
 $('#contact').waypoint(function(direction){
-	turnOff();
+	if(direction == 'down'){
+		turnOff();
 	$('.js-btn-contact').css({
 		'background-color':'#f39c12;',
 	});
+	}else{
+		turnOff();
+	$('.js-btn-portfolio').css({
+		'background-color':'#f39c12;',
+	});
+}
 },{
 	offset:'50%',
 });
 
 $('#footer').waypoint(function(direction){
-	turnOff();
+	if(direction == 'down'){
+		turnOff();
 	$('.js-btn-footer').css({
 		'background-color':'#f39c12;',
 	});
+	}else{
+		turnOff();
+	$('.js-btn-contact').css({
+		'background-color':'#f39c12;',
+	});
+}
 },{
 	offset:'50%',
 });
