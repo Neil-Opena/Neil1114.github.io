@@ -148,4 +148,9 @@ $('a[href*="#"]')
     }
   });
 
-//FIXME fix buttons and add if statements
+// TYPEIT
+$('#type').typeIt({
+     strings: 'An aspiring software engineer seeking to change lives, one line of code at a time',
+     speed: 60,
+     autoStart: false
+});

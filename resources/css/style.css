@@ -101,45 +101,6 @@ h2{
 	background-color: #f39c12;
 }
 
-/*ALERT BOX*/
-/* The alert message box */
-.alert-box{
-	z-index:10;
-	position:absolute;
-	bottom:25%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
-.alert-red {
-    padding: 20px;
-    background-color: #f2dede;
-    color: #a94442;
-    height:auto;
-    margin-bottom: 15px;
-    border: 2px solid #ebccd1;
-    border-radius: 20px;
-    text-align: center;
-    font-size: 90%;
-}
-
-/* The close button */
-.closebtn {
-    margin-left: 15px;
-    color:inherit;
-    font-weight: bold;
-    float: right;
-    font-size: 35px;
-    line-height: 20px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-/* When moving the mouse over the close button */
-.closebtn:hover {
-    color: #000;
-}
-
 /* ----------- HEADER ------------ */
 
 header{
