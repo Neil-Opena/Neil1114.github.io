@@ -20,7 +20,7 @@ body{
 	overflow-y:hidden;
 }
 
-section{
+section, footer{
 	height: 100vh;
 	padding:80px 0px;
 	width: 100%;
@@ -60,11 +60,12 @@ h1, h2, h3{
 h1{
 	font-size: 400%;
 	font-weight: 300;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 	word-spacing: 4px;
 	letter-spacing: 1px;
 	padding-bottom: 0px;
 	text-shadow: 0 5px 5px #ecf0f1;
+	margin-top:0px;
 }
 
 h2{
@@ -74,7 +75,7 @@ h2{
 	border-bottom: 3px solid #f39c12;
 	margin-left: 30%;
 	letter-spacing: 5px;
-	padding-bottom:5px;
+	padding:5px 0;
 }
 
 /*BUTTONS*/
@@ -98,6 +99,45 @@ h2{
 .btn-full:hover,
 .btn-full:active{
 	background-color: #f39c12;
+}
+
+/*ALERT BOX*/
+/* The alert message box */
+.alert-box{
+	z-index:10;
+	position:absolute;
+	bottom:25%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.alert-red {
+    padding: 20px;
+    background-color: #f2dede;
+    color: #a94442;
+    height:auto;
+    margin-bottom: 15px;
+    border: 2px solid #ebccd1;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 90%;
+}
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color:inherit;
+    font-weight: bold;
+    float: right;
+    font-size: 35px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: #000;
 }
 
 /* ----------- HEADER ------------ */
@@ -179,4 +219,9 @@ header{
 	color:transparent;
 	background-color:transparent;
 	border-radius:5px;
+}
+
+/* ----------- FOOTER ------------ */
+footer{
+	height: 100vh;
 }

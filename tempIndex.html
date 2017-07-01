@@ -18,12 +18,19 @@
 	<link rel="stylesheet" type="text/css" href="resources/css/style.css">
 </head>
 <body>
-	<header class="section">
+	<header class="section" id="header">
 		<div class="main-screen">
 			<h1>Neil Opena</h1>
 			<p>An aspiring software engineer seeking to change lives, one line of code at a time</p>
 			<a href="#" class="btn btn-full">Learn More <i class="fa fa-square-o" aria-hidden="true"></i></a>
-		</div>		
+		</div>
+		<div class="alert-box">
+			<div class="alert-red">
+				<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+				It is adviced to view this website using Chrome, FireFox, Internet Explorer or Safari. Optimization for web devices has not yet been completed.
+			</div>
+		</div>
+				
  		<div class="homepage-hero-module">
 		    <div class="video-container">
 		        <video autoplay loop class="fillWidth">
@@ -36,16 +43,15 @@
 		    </div>
 		</div>
 
-
  		<nav>
 			<ul class="main-nav">
-				<li><a href="#" class="btn btn-nav js-btn-header"><div></div></a></li>
-				<li><a href="#" class="btn btn-nav js-btn-about-me"><div></div></a></li>
-				<li><a href="#" class="btn btn-nav js-btn-education"><div></div></a></li>
-				<li><a href="#" class="btn btn-nav js-btn-statistics"><div></div></a></li>
-				<li><a href="#" class="btn btn-nav js-btn-portfolio"><div></div></a></li>
-				<li><a href="#" class="btn btn-nav js-btn-contact"><div></div></a></li>	
-				<li><a href="#" class="btn btn-nav js-btn-footer"><div></div></a></li>								
+				<li><a href="#header" class="btn btn-nav js-btn-header"><div></div></a></li>
+				<li><a href="#about-me" class="btn btn-nav js-btn-about-me"><div></div></a></li>
+				<li><a href="#education" class="btn btn-nav js-btn-education"><div></div></a></li>
+				<li><a href="#statistics" class="btn btn-nav js-btn-statistics"><div></div></a></li>
+				<li><a href="#portfolio" class="btn btn-nav js-btn-portfolio"><div></div></a></li>
+				<li><a href="#contact" class="btn btn-nav js-btn-contact"><div></div></a></li>	
+				<li><a href="#footer" class="btn btn-nav js-btn-footer"><div></div></a></li>								
 			</ul>
 			<ul class="nav-sections">
 				<li class="js-header">Header</li>
@@ -62,40 +68,42 @@
 	<div class="test">
 		<div class="row">
 			<h2>About Me</h2>
-			<!--details 2/3rd picture 1/3rd -->
-			<!--Map on the bottom-->
+		</div>
+		<div class="row">
 		</div>
 	</div>
 	</section>
 	
-	<section class="section section-education">
+	<section class="section section-education" id="education">
 		<div class="row">
 			<h2>Education</h2>
 		</div>
 	</section>
 
-	<section class="section section-statistics">
+	<section class="section section-statistics" id="statistics">
 		<div class="row">
 			<h2>Statistics</h2>
 		</div>
 	</section>
 
-	<section class="section section-portfolio">
+	<section class="section section-portfolio" id="portfolio">
 		<div class="row">
 			<h2>Portfolio</h2>
 		</div>
 	</section>
 
-	<section class="section section-contact">
-	<div class="test">
+	<section class="section section-contact" id="contact">
 		<div class="row">
 			<h2>Contact Me</h2>
 		</div>
-	</div>
 	</section>
 
-	<footer class="section">
-		
+	<footer class="section" id="footer">
+		<div class="row">
+			<div class="footer-elements">
+				<p>Copyright &copy; 2017 by Neil Opena. All rights reserved.</p>
+			</div>
+		</div>
 	</footer>
 	
 
