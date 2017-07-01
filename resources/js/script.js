@@ -154,3 +154,99 @@ $('#type').typeIt({
      speed: 60,
      autoStart: false
 });
+
+//WAYPOINT
+function turnOff(){
+	$('.js-btn-header').css({
+		'background-color':'##976008;',
+	});
+	$('.js-btn-about-me').css({
+		'background-color':'##976008;',
+	});
+	$('.js-btn-education').css({
+		'background-color':'##976008;',
+	});
+	$('.js-btn-statistics').css({
+		'background-color':'##976008;',
+	});
+	$('.js-btn-portfolio').css({
+		'background-color':'##976008;',
+	});
+	$('.js-btn-contact').css({
+		'background-color':'##976008;',
+	});
+	$('.js-btn-footer').css({
+		'background-color':'##976008;',
+	});
+}
+
+$('#header').waypoint(function(direction){
+	turnOff();
+	$('.js-btn-header').css({
+		'background-color':'#f39c12;',
+	});
+},{
+	offset:'50%',
+});
+$('#about-me').waypoint(function(direction){
+	turnOff();
+	$('.js-btn-about-me').css({
+		'background-color':'#f39c12;',
+	});
+},{
+	offset:'50%',
+});
+
+$('#education').waypoint(function(direction){
+	turnOff();
+	$('.js-btn-education').css({
+		'background-color':'#f39c12;',
+	});
+},{
+	offset:'50%',
+});
+
+$('#statistics').waypoint(function(direction){
+	if(direction == 'down'){
+		turnOff();
+	$('.js-btn-statistics').css({
+		'background-color':'#f39c12;',
+	});
+	}else{
+		turnOff();
+	$('.js-btn-education').css({
+		'background-color':'#f39c12;',
+	});
+}
+},{
+	offset:'50%',
+});
+
+$('#portfolio').waypoint(function(direction){
+	turnOff();
+	$('.js-btn-portfolio').css({
+		'background-color':'#f39c12;',
+	});
+},{
+	offset:'50%',
+});
+
+$('#contact').waypoint(function(direction){
+	turnOff();
+	$('.js-btn-contact').css({
+		'background-color':'#f39c12;',
+	});
+},{
+	offset:'50%',
+});
+
+$('#footer').waypoint(function(direction){
+	turnOff();
+	$('.js-btn-footer').css({
+		'background-color':'#f39c12;',
+	});
+},{
+	offset:'50%',
+});
+
+
