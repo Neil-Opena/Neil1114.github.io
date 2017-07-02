@@ -300,7 +300,7 @@ new WOW().init();
 
 var map = new GMaps({
   div: '.map',
-  lat: 20,
+  lat: 27,
   lng: 15,
   zoom:2
 });
@@ -309,14 +309,18 @@ map.addMarker({
   lat: 16.4023,
   lng: 120.5960,
   title: 'Baguio City',
-  
+  infoWindow: {
+	  content: '<p><strong>Baguio City, Philippines</strong></p>'
+	},
 });
 
 map.addMarker({
   lat: 40.5884,
   lng: -73.6579,
   title: 'Long Beach',
-  
+  infoWindow: {
+	  content: '<p><strong>Long Beach, New York</strong></p>'
+	},
 });
 
 //ENDING
