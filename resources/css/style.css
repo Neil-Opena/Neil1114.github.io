@@ -194,8 +194,12 @@ header{
 	padding-bottom:20px;
 	text-align:center;
 	word-spacing: 1px;
-	line-height: 24px;
+	line-height: 28px;
 	font-weight:300;
+}
+
+strong{
+	font-weight:500;
 }
 
 .section-about-me img{
@@ -207,6 +211,23 @@ header{
 .map{
 	width: 100%;
 	height: 20vh;
+}
+
+/* ----------- CONTACT ------------ */
+.form-messages{
+	width:70%;
+	margin:0 auto;
+	padding: 10px;
+	border-radius: 3px;
+	margin-bottom: 20px;
+}
+
+.success{
+	background-color:lightgreen;
+}
+
+.error{
+	background-color:pink;
 }
 
 
