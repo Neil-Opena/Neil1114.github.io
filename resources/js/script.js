@@ -296,13 +296,13 @@ $('#footer').waypoint(function(direction){
 //WOW.js
 new WOW().init();
 
-//GMAPS.JS
+// GMAPS.JS
 
 var map = new GMaps({
   div: '.map',
   lat: 27,
   lng: 15,
-  zoom:2
+  zoom:1
 });
 
 map.addMarker({
@@ -322,6 +322,8 @@ map.addMarker({
 	  content: '<p><strong>Long Beach, New York</strong></p>'
 	},
 });
+
+
 
 //ENDING
 });
