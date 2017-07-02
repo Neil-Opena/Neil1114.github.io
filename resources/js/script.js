@@ -1,3 +1,5 @@
+$(document).ready(function(){
+
 //SCROLLIFY
 
 $(function(){
@@ -149,34 +151,39 @@ $('a[href*="#"]')
   });
 
 // TYPEIT
-$('#type').typeIt({
-     strings: 'An aspiring software engineer seeking to change lives, one line of code at a time',
-     speed: 60,
+$('#header-type').typeIt({
+     strings: 'An aspiring software engineer seeking to change the world, one line of code at a time',
+     speed: 50,
+     autoStart: false
+});
+$('#footer-type').typeIt({
+     strings: 'Copyright &copy; 2017 by Neil Opena. All rights reserved.',
+     speed: 50,
      autoStart: false
 });
 
 //WAYPOINT
 function turnOff(){
 	$('.js-btn-header').css({
-		'background-color':'##976008;',
+		'background-color':'#2c3e50;',
 	});
 	$('.js-btn-about-me').css({
-		'background-color':'##976008;',
+		'background-color':'#2c3e50;',
 	});
 	$('.js-btn-education').css({
-		'background-color':'##976008;',
+		'background-color':'#2c3e50;',
 	});
 	$('.js-btn-statistics').css({
-		'background-color':'##976008;',
+		'background-color':'#2c3e50;',
 	});
 	$('.js-btn-portfolio').css({
-		'background-color':'##976008;',
+		'background-color':'#2c3e50;',
 	});
 	$('.js-btn-contact').css({
-		'background-color':'##976008;',
+		'background-color':'#2c3e50;',
 	});
 	$('.js-btn-footer').css({
-		'background-color':'##976008;',
+		'background-color':'#2c3e50;',
 	});
 }
 
@@ -286,4 +293,32 @@ $('#footer').waypoint(function(direction){
 	offset:'50%',
 });
 
+//WOW.js
+new WOW().init();
+
+//GMAPS.JS
+
+var map = new GMaps({
+  div: '.map',
+  lat: 20,
+  lng: 15,
+  zoom:2
+});
+
+map.addMarker({
+  lat: 16.4023,
+  lng: 120.5960,
+  title: 'Baguio City',
+  
+});
+
+map.addMarker({
+  lat: 40.5884,
+  lng: -73.6579,
+  title: 'Long Beach',
+  
+});
+
+//ENDING
+});
 
