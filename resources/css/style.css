@@ -218,13 +218,34 @@ strong{
 /* ----------- NUMBERS ------------ */
 .numbers{
 	height:40vh;
+	text-align:center;
 }
 
 .typing{
 	width:100%;
 }
 
+.numbers-icon{
+	padding:20px 0;
+}
+
+.numbers-text{
+	text-align:center;
+}
+
+.numbers-count{
+	color:#f39c12;
+	font-size:150%;
+	text-shadow:0 2px 1px #000;
+	padding-bottom:10px;
+}
+
 /* ----------- PORTFOLIO ------------ */
+
+.project img{
+	height:30vh;
+	width:100%;
+}
 
 /* ----------- CONTACT ------------ */
 .contact-message{

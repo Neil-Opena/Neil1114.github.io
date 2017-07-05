@@ -15,6 +15,8 @@
 	<link rel="stylesheet" type="text/css" href="vendors/css/jquery-ui.min.css">
 	<link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
 	<link rel="stylesheet" type="text/css" href="vendors/css/coverr.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/slick.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/slick-theme.css">
 	<link rel="stylesheet" type="text/css" href="resources/css/style.css">
 </head>
 <body>
@@ -106,32 +108,46 @@
 			<div class="numbers">
 				<div class="col span-1-of-4">
 					<div class="numbers-icon">	
-						<i class="fa fa-code" aria-hidden="true"></i>
+						<i class="fa fa-globe fa-4x" aria-hidden="true"></i>
 					</div>
-					<span class="counter" data-from="0" data-to="3000" data-speed="2000" data-refresh-interval="50"></span> +
+					<div class="numbers-count">
+						<span class="counter" data-from="0" data-to="3" data-speed="500" data-refresh-interval="50"></span>
+					</div>
+					<div class="numbers-text">
+						Countries Traveled
+					</div>
+				</div>
+				<div class="col span-1-of-4">
+					<div class="numbers-icon">	
+						<i class="fa fa-coffee fa-4x" aria-hidden="true"></i>
+					</div>
+					<div class="numbers-count">
+						<span class="counter" data-from="0" data-to="291" data-speed="1500" data-refresh-interval="50"></span>
+					</div>
+					<div class="numbers-text">
+						Cups of Coffee
+					</div>
+				</div>
+				<div class="col span-1-of-4">
+					<div class="numbers-icon">	
+						<i class="fa fa-code fa-4x" aria-hidden="true"></i>
+					</div>
+					<div class="numbers-count">
+						<span class="counter" data-from="2000" data-to="4000" data-speed="2500" data-refresh-interval="50"></span> +
+					</div>
 					<div class="numbers-text">
 						Lines of Code Written
 					</div>
 				</div>
 				<div class="col span-1-of-4">
-					<i class="fa fa-code" aria-hidden="true"></i>
-					<span class="counter" data-from="0" data-to="3000" data-speed="3000" data-refresh-interval="50"></span> +
-					<div class="numbers-text">
-						
+					<div class="numbers-icon">	
+						<i class="fa fa-gears fa-4x" aria-hidden="true"></i>
 					</div>
-				</div>
-				<div class="col span-1-of-4">
-					<i class="fa fa-code" aria-hidden="true"></i>
-					<span class="counter" data-from="0" data-to="3000" data-speed="4000" data-refresh-interval="50"></span> +
-					<div class="numbers-text">
-						
+					<div class="numbers-count">
+						<span class="counter" data-from="0" data-to="100" data-speed="3500" data-refresh-interval="50"></span> %
 					</div>
-				</div>
-				<div class="col span-1-of-4">
-					<i class="fa fa-code" aria-hidden="true"></i>
-					<span class="counter" data-from="0" data-to="3000" data-speed="5000" data-refresh-interval="50"></span> +
 					<div class="numbers-text">
-						
+						Determined
 					</div>
 				</div>
 			</div>
@@ -144,6 +160,40 @@
 	<section class="section section-portfolio" id="portfolio">
 		<div class="row">
 			<h2>Portfolio</h2>
+		</div>
+		<div class="row">
+			<div class="cycle">
+				<div class="project-frame">
+					<div class="project">
+						<img src="resources/img/uno-img.jpg">
+					</div>
+				</div>
+				<div class="project-frame">
+					<div class="project">
+						1
+					</div>
+				</div>
+				<div class="project-frame">
+					<div class="project">
+						1
+					</div>
+				</div>
+				<div class="project-frame">
+					<div class="project">
+						1
+					</div>
+				</div>
+				<div class="project-frame">
+					<div class="project">
+						1
+					</div>
+				</div>
+				<div class="project-frame">
+					<div class="project">
+						1
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
 
@@ -244,6 +294,7 @@
 	<script src="http://maps.google.com/maps/api/js"></script>
 	<script src="vendors/js/gmaps.js"></script>
 	<script src="vendors/js/jquery.countTo.js"></script>
+	<script src="vendors/js/slick.min.js"></script>
 	<script src="resources/js/script.js"></script>
 </body>
 </html>
