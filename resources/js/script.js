@@ -158,7 +158,7 @@ $('#header-type').typeIt({
 });
 $('#footer-type').typeIt({
      strings: 'Copyright &copy; 2017 by Neil Opena. All rights reserved.',
-     speed: 50,
+     speed: 30,
      autoStart: false
 });
 
@@ -335,12 +335,30 @@ $(window).scroll(function() {
 
 });
 
+//SKILLBAR
+var b = 0;
+$(window).scroll(function() {
+
+  var oTop = $('#education').offset().top - window.innerHeight;
+  if (b == 0 && $(window).scrollTop() > oTop) {
+  	jQuery('.skillbar').each(function(){
+		jQuery(this).find('.skillbar-bar').animate({
+			width:jQuery(this).attr('data-percent')
+		},6000);
+	});
+    b = 1;
+  }
+
+});
+
+
 //SLICK
 $('.cycle').slick({
 	infinite: true,
 	slidesToShow: 4,
 	slidesToScroll:1,
 });
+
 
 //ENDING
 });

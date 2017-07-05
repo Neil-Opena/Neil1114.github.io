@@ -215,6 +215,20 @@ strong{
 
 /* ----------- EDUCATION ------------ */
 
+.education-stony{
+	height:60vh;
+	background-color:rgba(250,250,250,0.9);
+	margin:15px 0;
+	padding:3px;
+	border-radius: 4px;
+}
+
+.education-stony img{
+	height:100px;
+	float:left;
+}
+
+
 /* ----------- NUMBERS ------------ */
 .numbers{
 	height:40vh;
@@ -244,7 +258,6 @@ strong{
 
 .project img{
 	height:30vh;
-	width:100%;
 }
 
 /* ----------- CONTACT ------------ */
