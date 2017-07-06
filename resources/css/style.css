@@ -292,6 +292,49 @@ strong{
 	left:10.7%;
 }
 
+figure a img:hover,
+figure a img:active{
+	transform:scale(1.1);
+	border:2px solid #fff;
+}
+
+.modal{
+	height:500px;
+	background-color: #ddd;
+}
+
+.src-btn:link,
+.src-btn:visited{
+	position:absolute;
+	bottom:2%;
+	left:20%;
+	padding:10px;
+	font-size:90%;
+	background-color: #f39c12;
+	transition: color 0.2s;
+}
+
+.src-btn:hover,
+.src-btn:active{
+	color:#fff;
+}
+
+.download-btn:link,
+.download-btn:visited{
+	position:absolute;
+	bottom:2%;
+	right:20%;
+	padding:10px;
+	font-size:90%;
+	background-color: lightgreen;
+	transition: color 0.2s;
+}
+
+.download-btn:hover,
+.download-btn:active{
+	color:#fff;
+}
+
 
 /* ----------- CONTACT ------------ */
 .contact-message{

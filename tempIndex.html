@@ -17,6 +17,7 @@
 	<link rel="stylesheet" type="text/css" href="vendors/css/coverr.css">
 	<link rel="stylesheet" type="text/css" href="vendors/css/skillsbar.css">
 	<link rel="stylesheet" type="text/css" href="vendors/css/ribbon.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/jquery.modal.min.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="resources/css/style.css">
 </head>
 <body>
@@ -151,35 +152,35 @@
 			</div>
 		</div>
 		<div class="skills">
-			<div class="row wow fadeInRight" data-wow-delay="1.5s" data-wow-duration="0.5s">
+			<div class="row wow fadeInRight" data-wow-delay="1.25s" data-wow-duration="0.5s">
 				<div class="skillbar clearfix " data-percent="70%">
 					<div class="skillbar-title" style="background: #28b062;"><span>HTML5</span></div>
 					<div class="skillbar-bar" style="background: #2ecc71;"></div>
 					<div class="skill-bar-percent">70%</div>
 				</div> <!-- End Skill Bar -->
 			</div>
-			<div class="row wow fadeInLeft" data-wow-delay="1.5s" data-wow-duration="0.5s">
+			<div class="row wow fadeInLeft" data-wow-delay="1.25s" data-wow-duration="0.5s">
 				<div class="skillbar clearfix " data-percent="50%">
 					<div class="skillbar-title" style="background: #e3301e;"><span>Java</span></div>
 					<div class="skillbar-bar" style="background: #e74c3c;"></div>
 					<div class="skill-bar-percent">50%</div>
 				</div> <!-- End Skill Bar -->
 			</div>
-			<div class="row wow fadeInRight" data-wow-delay="1.5s" data-wow-duration="0.5s">
+			<div class="row wow fadeInRight" data-wow-delay="1.25s" data-wow-duration="0.5s">
 				<div class="skillbar clearfix " data-percent="45%">
 					<div class="skillbar-title" style="background: #236d9d;"><span>CSS3</span></div>
 					<div class="skillbar-bar" style="background: #2980b9"></div>
 					<div class="skill-bar-percent">45%</div>
 				</div> <!-- End Skill Bar -->
 			</div>
-			<div class="row wow fadeInLeft" data-wow-delay="1.5s" data-wow-duration="0.5s">
+			<div class="row wow fadeInLeft" data-wow-delay="1.25s" data-wow-duration="0.5s">
 				<div class="skillbar clearfix " data-percent="30%">
 					<div class="skillbar-title" style="background: #d2aa0c;"><span>Python</span></div>
 					<div class="skillbar-bar" style="background: #f1c40f;"></div>
 					<div class="skill-bar-percent">30%</div>
 				</div> <!-- End Skill Bar -->
 			</div>
-			<div class="row wow fadeInRight" data-wow-delay="1.5s" data-wow-duration="0.5s">
+			<div class="row wow fadeInRight" data-wow-delay="1.25s" data-wow-duration="0.5s">
 				<div class="skillbar clearfix " data-percent="20%">
 					<div class="skillbar-title" style="background: #5bc2f1;"><span>JS/JQuery</span></div>
 					<div class="skillbar-bar" style="background: #7acef4;"></div>
@@ -255,7 +256,7 @@
 		<div class="row">
 			<h2>Portfolio</h2>
 		</div>
-		<div class="wow bounceInDown">
+		<div class="wow bounceInDown" data-wow-delay="1.2s">
 			<h3 class="ribbon">
 				<strong class="ribbon-content">NEW</strong>
 			</h3>
@@ -263,23 +264,55 @@
 		<ul class="projects">
 			<li>
 				<figure>
-					<img src="resources/img/website-square.png" class="paper">
+					<a href="#website" rel="modal:open">
+						<img src="resources/img/website-square.png" class="wow zoomInLeft" data-wow-delay="0.2s">
+					</a>
 				</figure>
 			</li>
 			<li>
 				<figure>
-					<img src="resources/img/uno-square.jpg">
+					<a href="#uno" rel="modal:open">
+						<img src="resources/img/uno-square.jpg" class="wow zoomInLeft" data-wow-delay="0.4s">
 				</figure>
 			</li><li>
 				<figure>
-					<img src="resources/img/blender-square.png">
+					<a href="#blender" rel="modal:open">
+						<img src="resources/img/blender-square.png" class="wow zoomInRight" data-wow-delay="0.6s">
 				</figure>
 			</li><li>
 				<figure>
-					<img src="resources/img/hackHealth-square.png">
+					<a href="#hackHealth" rel="modal:open">
+						<img src="resources/img/hackHealth-square.png" class="wow zoomInRight" data-wow-delay="0.8s">
+					</a>
 				</figure>
 			</li>
 		</ul>
+
+		<!-- MODALS -->
+		<div id="website" class="modal" style="display:none">
+			<h4>My Personal Website</h4>
+			<p>This was created...</p>
+			<a href="#" class="btn btn-full src-btn">View Source Code</a>
+		</div>
+		<div id="uno" class="modal" style="display:none">
+			<h4>UNO project</h4>
+			<p>This was created...</p>
+			<a href="#" class="btn btn-full src-btn">View Source Code</a>
+			<a href="#" class="btn btn-full download-btn">Download</a>
+		</div>
+		<div id="blender" class="modal" style="display:none">
+			<h4>Blender Models</h4>
+			<p>This was created...</p>
+			<a href="#" class="btn btn-full src-btn">View Source Code</a>
+			<a href="#" class="btn btn-full download-btn">Download</a>
+		</div>
+		<div id="hackHealth" class="modal" style="display:none">
+			<h4>HackHealth text-project</h4>
+			<p>This was created...</p>
+			<a href="#" class="btn btn-full src-btn">View Source Code</a>
+			<a href="#" class="btn btn-full download-btn">Download</a>
+		</div>
+
 	</section>
 
 	<section class="section section-contact" id="contact">
@@ -379,6 +412,7 @@
 	<script src="http://maps.google.com/maps/api/js"></script>
 	<script src="vendors/js/gmaps.js"></script>
 	<script src="vendors/js/jquery.countTo.js"></script>
+	<script src="vendors/js/jquery.modal.min.js"></script>
 	<script src="resources/js/script.js"></script>
 </body>
 </html>

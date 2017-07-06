@@ -351,6 +351,8 @@ $(window).scroll(function() {
 
 });
 
+//SLIDEUP/SlIDEDOWN
+
 var c = 0;
 $(window).scroll(function(){
 	var cTop = $('#contact').offset().top - window.innerHeight;
@@ -359,6 +361,7 @@ $(window).scroll(function(){
 		c = 1;
 	}
 });
+
 
 //ENDING
 });
