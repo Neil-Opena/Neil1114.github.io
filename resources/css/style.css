@@ -289,8 +289,9 @@ strong{
 	width:10%;
 	position: absolute;
 	top:12%;
-	left:10.8%;
+	left:10.7%;
 }
+
 
 /* ----------- CONTACT ------------ */
 .contact-message{
@@ -306,6 +307,7 @@ form{
 	margin:20px auto;
 	padding:20px;
 	border-radius:10px;
+	display:none;
 }
 
 .success{
@@ -316,6 +318,7 @@ form{
 	margin-bottom: 20px;
 	background-color: lightgreen;
 	text-align:center;
+	display:none;
 }
 
 input[type="text"],

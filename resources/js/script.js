@@ -327,8 +327,8 @@ map.addMarker({
 var a = 0;
 $(window).scroll(function() {
 
-  var oTop = $('#statistics').offset().top - window.innerHeight;
-  if (a == 0 && $(window).scrollTop() > oTop) {
+  var aTop = $('#statistics').offset().top - window.innerHeight;
+  if (a == 0 && $(window).scrollTop() > aTop) {
   	$('.counter').countTo();
     a = 1;
   }
@@ -339,8 +339,8 @@ $(window).scroll(function() {
 var b = 0;
 $(window).scroll(function() {
 
-  var oTop = $('#education').offset().top - window.innerHeight;
-  if (b == 0 && $(window).scrollTop() > oTop) {
+  var bTop = $('#education').offset().top - window.innerHeight;
+  if (b == 0 && $(window).scrollTop() > bTop) {
   	jQuery('.skillbar').each(function(){
 		jQuery(this).find('.skillbar-bar').animate({
 			width:jQuery(this).attr('data-percent')
@@ -351,8 +351,14 @@ $(window).scroll(function() {
 
 });
 
-
-
+var c = 0;
+$(window).scroll(function(){
+	var cTop = $('#contact').offset().top - window.innerHeight;
+	if(c== 0 && $(window).scrollTop() > cTop){
+		$('form').slideDown(1000);
+		c = 1;
+	}
+});
 
 //ENDING
 });
