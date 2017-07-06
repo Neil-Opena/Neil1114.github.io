@@ -301,6 +301,18 @@ figure a img:active{
 .modal{
 	height:500px;
 	background-color: #ddd;
+	font-weight:200;
+}
+
+.modal-title{
+	text-align:center;
+	padding-bottom:15px;
+	font-weight:400;
+}
+
+.technologies{
+	padding:10px;
+	font-weight:400;
 }
 
 .src-btn:link,
@@ -311,7 +323,7 @@ figure a img:active{
 	padding:10px;
 	font-size:90%;
 	background-color: #f39c12;
-	transition: color 0.2s;
+	transition: color 0.1s;
 }
 
 .src-btn:hover,
@@ -327,7 +339,7 @@ figure a img:active{
 	padding:10px;
 	font-size:90%;
 	background-color: lightgreen;
-	transition: color 0.2s;
+	transition: color 0.1s;
 }
 
 .download-btn:hover,
