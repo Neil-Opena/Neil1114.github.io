@@ -292,8 +292,11 @@ strong{
 	left:10.7%;
 }
 
-figure a img:hover,
-figure a img:active{
+figure img{
+	transition: transform 0.5s, border 0.5s;
+}
+
+figure a img:hover{
 	transform:scale(1.1);
 	border:2px solid #fff;
 }
@@ -306,13 +309,19 @@ figure a img:active{
 
 .modal-title{
 	text-align:center;
-	padding-bottom:15px;
 	font-weight:400;
+	border-bottom:2px solid #f39c12;
+	margin-bottom:7px;
 }
 
 .technologies{
 	padding:10px;
 	font-weight:400;
+}
+
+.modal img{
+	margin-left:10%;
+	width:80%;
 }
 
 .src-btn:link,
