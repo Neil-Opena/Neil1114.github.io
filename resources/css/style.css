@@ -4,6 +4,7 @@
 *{
 	margin: 0;
 	padding: 0;
+	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
@@ -96,6 +97,7 @@ h2{
 .btn-full:visited{
 	background-color:none;
 	color: #2c3e50;
+	-webkit-transition: background-color 0.5s;
 	transition: background-color 0.5s;
 }
 
@@ -118,6 +120,7 @@ header{
 	position: absolute;
 	top:25%;
 	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 }
 
@@ -282,6 +285,7 @@ strong{
 	height:250px;
 	width:250px;
 	border:1px solid #f39c12;
+	-webkit-box-shadow: 3px 3px 7px #333;
 	box-shadow: 3px 3px 7px #333;
 }
 
@@ -293,10 +297,14 @@ strong{
 }
 
 figure img{
+	-webkit-transition: border 0.5s, -webkit-transform 0.5s;
+	transition: border 0.5s, -webkit-transform 0.5s;
 	transition: transform 0.5s, border 0.5s;
+	transition: transform 0.5s, border 0.5s, -webkit-transform 0.5s;
 }
 
 figure a img:hover{
+	-webkit-transform:scale(1.1);
 	transform:scale(1.1);
 	border:2px solid #fff;
 }
@@ -332,6 +340,7 @@ figure a img:hover{
 	padding:10px;
 	font-size:90%;
 	background-color: #f39c12;
+	-webkit-transition: color 0.1s;
 	transition: color 0.1s;
 }
 
@@ -348,6 +357,7 @@ figure a img:hover{
 	padding:10px;
 	font-size:90%;
 	background-color: lightgreen;
+	-webkit-transition: color 0.1s;
 	transition: color 0.1s;
 }
 
@@ -438,34 +448,49 @@ footer{
 
 a .github{
   color:#6e5494;
+  -webkit-transition: color 0.5s;
   transition: color 0.5s;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
   transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
 }
 
 a .github:hover{
   color:#9984b9;
+  -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
 
 a .google{
   color:#dd4d42;
+  -webkit-transition: color 0.5s;
   transition: color 0.5s;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
   transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
 }
 
 a .google:hover{
   color:#ea918a;
+  -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
 
 a .linkedin{
   color:#0077b5;
+  -webkit-transition: color 0.5s;
   transition: color 0.5s;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
   transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
 }
 
 a .linkedin:hover{
   color:#0babff;
+  -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
 
