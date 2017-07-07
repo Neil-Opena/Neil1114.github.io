@@ -468,3 +468,12 @@ a .linkedin:hover{
   color:#0babff;
   transform: scale(1.2);
 }
+
+#emails{
+	text-align:center;
+	height:200px;
+}
+
+.Emails{
+	list-style: none;
+}
