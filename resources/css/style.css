@@ -136,6 +136,17 @@ header{
 	vertical-align: middle;
 }
 
+.queries-message{
+	width:50%;
+	background-color:lightgreen;
+	z-index:99999;
+	margin-left:25%;
+	position:absolute;
+	font-size:200%;
+	padding:25px;
+	display:none;
+}
+
 /* ----------- NAVIGATION------------ */
 
 .main-nav,
