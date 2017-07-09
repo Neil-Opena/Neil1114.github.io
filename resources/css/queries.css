@@ -1,6 +1,30 @@
-/*Big tablets to 1200px (widths smaller than the 1140px row)*/
-@media only screen and (max-width: 1200px){
-	.queries-message{
-		display:block;
+@media only screen and (max-width: 1260px){
+	.video-container video{
+		zoom:105%;
+	}
 }
 
+/*Big tablets to 1200px (widths smaller than the 1140px row)*/
+@media only screen and (max-width: 1200px){
+	/*.queries-message{
+		display:block;*/
+	.video-container video {
+	    zoom:120%;
+	    background-position:center;
+	}
+}
+
+@media only screen and (max-width: 1023px){
+	
+	
+}
+
+@media only screen and (max-width: 767px){
+
+
+}
+
+@media only screen and (max-width: 480px){
+
+
+}
