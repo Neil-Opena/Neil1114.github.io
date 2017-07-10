@@ -6,6 +6,11 @@
 	}
 }
 
+@media only screen and (max-height:700px){
+	html,
+	body{font-size:18px;}
+}
+
 @media only screen and (max-width: 1200px){
 	.video-container video {zoom:125%;}
 
