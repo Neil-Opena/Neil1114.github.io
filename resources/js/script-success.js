@@ -296,33 +296,6 @@ $('#footer').waypoint(function(direction){
 //WOW.js
 new WOW().init();
 
-// GMAPS.JS
-
-var map = new GMaps({
-  div: '.map',
-  lat: 27,
-  lng: 15,
-  zoom:1
-});
-
-map.addMarker({
-  lat: 16.4023,
-  lng: 120.5960,
-  title: 'Baguio City',
-  infoWindow: {
-	  content: '<p><strong>Baguio City, Philippines</strong></p>'
-	},
-});
-
-map.addMarker({
-  lat: 40.5884,
-  lng: -73.6579,
-  title: 'Long Beach',
-  infoWindow: {
-	  content: '<p><strong>Long Beach, New York</strong></p>'
-	},
-});
-
 //COUNTTO
 var a = 0;
 $(window).scroll(function() {
