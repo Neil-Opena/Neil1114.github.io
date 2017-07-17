@@ -174,7 +174,7 @@ header{
 .btn-nav:link,
 .btn-nav:visited{
 	padding:5px;
-	background-color: #2c3e50; 
+	background-color: #2c3e50;
 	border-width: 1px;
 }
 
@@ -201,6 +201,7 @@ header{
 	padding-top:20px;
 	border:1px solid #f39c12;
 	border-radius:20px;
+	overflow-y:auto;
 }
 
 .text-container p{
@@ -235,6 +236,7 @@ strong{
 	padding:3px;
 	border-radius: 4px;
 	font-weight:300;
+	overflow-y:auto;
 }
 
 .education-stony img{
