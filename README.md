@@ -1,7 +1,14 @@
 # Neil1114.github.io
-My personal website
+My personal website <em>Being updated as of Fall '17</em>
 
 This was created during <strong>Summer '17</strong> as my own summer project. I wanted to design my own website because I wanted to create a living and more responsive version of my resume. It is definitely more appealing to users, plus it allowed me learn so much more about development during the time that I designed and coded this portfolio website. I used various online resources such as YouTube videos, articles and guides to assist me in the process.
+
+Another version of the website will be launched in the end of Fall '17 to incorporate additional changes such as:
+<ul>
+    <li>Better responsiveness</li>
+    <li>Cleaner design</li>
+    <li>More efficient User Experience</li>
+</ul>
 
 Technologies Used:
 <ul>
